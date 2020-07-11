@@ -1,0 +1,133 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    color: white
+}
+
+.container{
+    height: 100%
+}
+
+@media screen and (max-width: 499px) {
+    .gameDiv{
+        height: 40%
+    }
+
+    #gameButton{
+        padding: 10px;
+        border-radius: 200px;
+        position: absolute;
+        display: inline;
+    }
+
+    #gameButton > div{
+        padding: 20px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .downGameButton{
+        margin-left: -55px;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 500px){
+    .gameDiv{
+        height: 40%
+    }
+
+    #gameButton{
+        padding: 25px;
+        border-radius: 200px;
+        position: absolute;
+        display: inline;
+    }
+
+    #gameButton > div{
+        padding: 45px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .downGameButton{
+        margin-left: -95px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    .gameDiv{
+        height: 20%
+    }
+
+    #gameButton{
+        padding: 10px;
+        border-radius: 200px;
+        position: absolute;
+        display: inline;
+    }
+
+    #gameButton > div{
+        padding: 20px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .downGameButton{
+        margin-left: -55px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .gameDiv{
+        height: 30%
+    }
+
+    #gameButton{
+        padding: 20px;
+        border-radius: 200px;
+        position: absolute;
+        display: inline;
+    }
+
+    #gameButton > div{
+        padding: 30px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .downGameButton{
+        margin-left: -75px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    .gameDiv{
+        height:40%
+    }
+
+    #gameButton{
+        padding: 25px;
+        border-radius: 200px;
+        position: absolute;
+        display: inline;
+    }
+
+    #gameButton > div{
+        padding: 45px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .downGameButton{
+        margin-left: -95px;
+    }
+}
